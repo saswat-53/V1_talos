@@ -1,3 +1,4 @@
+import { router } from 'expo-router';
 import React, { useState } from 'react';
 import {
   View,
@@ -30,7 +31,7 @@ const ProfileScreen = ({ userName, onLogout }) => {
           onPress: () => {
             // Call the logout function passed from parent or navigation
             if (onLogout) {
-              onLogout();
+              router.push('/');
             }
           },
         },

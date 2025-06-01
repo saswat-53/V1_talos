@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "bolt-expo-nativewind",
+    "name": "v1-talos",
     "slug": "bolt-expo-nativewind",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -27,8 +27,12 @@
     "extra": {
       "router": {},
       "eas": {
-        "projectId": "98960a95-6608-4d16-a405-23af02853a41"
+        "projectId": "1d4e31df-5f33-45f2-8015-01133cdaf1fd"
       }
+    },
+    "owner": "saswat_5335",
+    "android": {
+      "package": "com.saswat_5335.boltexponativewind"
     }
   }
 }
